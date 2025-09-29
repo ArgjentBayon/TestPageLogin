@@ -8,30 +8,46 @@
 </head>
 <body>
     <div class="header">
-        <h1>Versicherungsportal</h1>
+        <div class="nav-menu">
+            <a href="dashboard.html" class="nav-link active">Dashboard</a>
+            <a href="profile.html" class="nav-link">Profil</a>
+            <a href="versicherungen.html" class="nav-link">Versicherungen</a>
+            <a href="schaden.html" class="nav-link">Schäden</a>
+            <a href="vertraege.html" class="nav-link">Verträge</a>
+            <a href="rechnungen.html" class="nav-link">Rechnungen</a>
+            <a href="korrespondenz.html" class="nav-link">Korrespondenz</a>
+            <a href="dokumente.html" class="nav-link">Dokumente</a>
+            <a href="support.html" class="nav-link">Support</a>
+            <a href="einstellungen.html" class="nav-link">Einstellungen</a>
+            <a href="abmelden.html" class="nav-link">Abmelden</a>
+        </div>
         <div class="user-info">
             <span>Willkommen, <span id="username-display">User</span></span>
-            <button id="logout-btn" class="logout-btn">Abmelden</button>
+            <button id="logout-btn" class="logout-btn">Logout</button>
         </div>
+    </div>
+
+    <div class="breadcrumb">
+        Dashboard
     </div>
 
     <div class="dashboard-container">
         <h2>Dashboard</h2>
         <div class="navigation-cards">
             <div class="card">
-                <h3>Postfach</h3>
-                <p>Verwalten Sie Ihre Nachrichten und Dokumente</p>
-                <a href="mailbox.html" class="nav-link">Zum Postfach</a>
+                <h3>Dokumente herunterladen</h3>
+                <p>Hier können Sie alle Ihre Versicherungsdokumente herunterladen</p>
+                <a href="dokumente.html" class="nav-link">Zu den Dokumenten</a>
             </div>
             <div class="card">
-                <h3>Downloads</h3>
-                <p>Laden Sie Ihre Versicherungsdokumente herunter</p>
-                <a href="downloads.html" class="nav-link">Downloadbereich</a>
+                <h3>Versicherungen verwalten</h3>
+                <p>Übersicht Ihrer Versicherungsverträge</p>
+                <a href="versicherungen.html" class="nav-link">Versicherungen</a>
             </div>
             <div class="card">
-                <h3>Meine Dokumente</h3>
-                <p>Übersicht aller Ihrer Versicherungsdokumente</p>
-                <a href="documents.html" class="nav-link">Dokumente anzeigen</a>
+                <h3>Schäden melden</h3>
+                <p>Schadensfälle melden und verfolgen</p>
+                <a href="schaden.html" class="nav-link">Schäden</a>
             </div>
         </div>
     </div>
