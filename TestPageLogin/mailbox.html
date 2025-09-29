@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versicherungsportal - Postfach</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Versicherungsportal</h1>
+        <div class="user-info">
+            <span>Willkommen, <span id="username-display">User</span></span>
+            <button id="logout-btn" class="logout-btn">Abmelden</button>
+        </div>
+    </div>
+
+    <div class="breadcrumb">
+        <a href="dashboard.html">Dashboard</a> > Postfach
+    </div>
+
+    <div class="container">
+        <h2>Postfach</h2>
+        <div class="mailbox-content">
+            <div class="mail-item">
+                <h3>Neue Versicherungspolice</h3>
+                <p class="mail-date">25.09.2025</p>
+                <p class="mail-preview">Ihre neue Kfz-Versicherungspolice ist verfügbar...</p>
+                <div class="mail-actions">
+                    <a href="documents/rechnung.pdf" class="download-link" download>Rechnung.pdf</a>
+                    <a href="documents/police.pdf" class="download-link" download>Police.pdf</a>
+                </div>
+            </div>
+            <div class="mail-item">
+                <h3>Schadensmeldung aktualisiert</h3>
+                <p class="mail-date">20.09.2025</p>
+                <p class="mail-preview">Status Ihrer Schadensmeldung wurde aktualisiert...</p>
+                <div class="mail-actions">
+                    <a href="documents/schadensbericht.pdf" class="download-link" download>Schadensbericht.pdf</a>
+                </div>
+            </div>
+            <div class="mail-item">
+                <h3>Jahresabschluss</h3>
+                <p class="mail-date">15.09.2025</p>
+                <p class="mail-preview">Ihr Versicherungsjahresabschluss 2025...</p>
+                <div class="mail-actions">
+                    <a href="documents/jahresabschluss.pdf" class="download-link" download>Jahresabschluss.pdf</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

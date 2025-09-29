@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versicherungsportal - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Versicherungsportal</h1>
+        <div class="user-info">
+            <span>Willkommen, <span id="username-display">User</span></span>
+            <button id="logout-btn" class="logout-btn">Abmelden</button>
+        </div>
+    </div>
+
+    <div class="dashboard-container">
+        <h2>Dashboard</h2>
+        <div class="navigation-cards">
+            <div class="card">
+                <h3>Postfach</h3>
+                <p>Verwalten Sie Ihre Nachrichten und Dokumente</p>
+                <a href="mailbox.html" class="nav-link">Zum Postfach</a>
+            </div>
+            <div class="card">
+                <h3>Downloads</h3>
+                <p>Laden Sie Ihre Versicherungsdokumente herunter</p>
+                <a href="downloads.html" class="nav-link">Downloadbereich</a>
+            </div>
+            <div class="card">
+                <h3>Meine Dokumente</h3>
+                <p>Übersicht aller Ihrer Versicherungsdokumente</p>
+                <a href="documents.html" class="nav-link">Dokumente anzeigen</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
